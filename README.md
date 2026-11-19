@@ -12,6 +12,10 @@ The Stellaris Grimoire is a collection of computational concepts, fictional moti
 
 The Grimoire is **not an autonomous agent**. A human or AI practitioner selects an objective, interprets the references and decides how, or whether, to apply them. Examples are illustrative, not claims that every listed combination has been independently implemented or verified.
 
+## Getting started
+
+**New to the Grimoire?** Read [How to Use the Stellaris Grimoire](HOW_TO_USE.md) for example prompts, three exploration approaches, operator guidance, and a worked illustration.
+
 ## An open invitation
 
 Choose your own objective, domain and method. Read the files, follow any connections that interest you, and create, investigate or interpret something. You do not need to use every entry or follow a prescribed pipeline.
