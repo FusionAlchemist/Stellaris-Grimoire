@@ -1,0 +1,564 @@
+## Original & Core Spells
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Vitalis** | Healing Node | Self-Repair | Auto-recovery loops | Self-Healing | Critical server redundancy recovery |
+| **Absorbus** | Absorb/Reflect | Security Shield | Adaptive malware defense | Security | Network threat neutralization |
+| **Fluxa** | Flow | Resource Management | Dynamic CPU/memory allocation | Resource Flow | Optimizing compute tasks in real time |
+| **Fortis** | Power Surge | Temporary Enhancements | Feature toggles, performance bursts | Temporary Boost | On-demand high-performance mode |
+| **Modulor** | Essence Channel | Custom Modules | User-configurable AI plugins | Custom Modules | Tailored AI behavior per task |
+| **Preserva** | Preservation | State Preservation | Checkpoints, rollback systems | Persistence/Storage | Disaster recovery / undo system |
+| **Energex** | Energy Boost | Overdrive Mode | Turbo mode / high-energy tasks | Overdrive | Batch processing heavy computations |
+| **Adaptis** | Tool Copy | Adaptable Tools | Module that copies functionality | Adaptive Tools | Auto-learning feature sets |
+| **Shiftara** | Transformation | Shifting | Dynamic UI / mode swap | Mode Switching | Context-based feature changes |
+| **Armora** | Suit Enhancement | Hardware Enhancement | Hot-swappable components | Hardware Adaptation | Rapid deployment of peripheral modules |
+| **Teleportis** | State Transfer | State Transfer | Containerized state migration | State Transfer | Microservices migration / VM snapshots |
+| **Vitalis Maxima** | Life Expansion | Health Scaling | Dynamic buffer / quota expansion | Resilience Scaling | Scaling system resources under load |
+| **Regena** | Regeneration | Randomized Recovery | Probabilistic redundancy | Adaptive Recovery | Non-deterministic fault mitigation |
+| **Singularis** | Unique Module | Unique Power Modules | Specialized functional plugins | Unique Module | Tailored AI functions |
+| **Clarivis** | Analytical Overlay | Real-time monitoring | Visualization | Surveillance/Insight | Data dashboard / threat spotting |
+| **Countera** | Strategic Counters | Rule-based response | Threat vs response mapping | Countermeasure | Identifying and neutralizing threats |
+| **Chronom** | Time Warp | Version Control | Temporal snapshots / rollback | Time Management | Historical state restoration |
+| **Telek** | Telekinesis | Remote Manipulation | Remote command execution | Remote Control | Cloud orchestration / task delegation |
+| **Transmutare** | Transmutation | Resource Transformation | Data conversion | Transformation | File format / data pipeline conversion |
+| **Energos** | Energy Pool | CPU/GPU management | Compute resource allocation | Energy Management | Balancing processor loads |
+| **Decisus** | Tactical Pause | Decision Buffer | Workflow queue / pre-evaluation | Strategic Planning | Batch task pre-processing |
+| **Defendora** | Shield Recharge | Defensive Cooldown | Auto-recovery cooldown timer | Defensive Recovery | Load balancer reset interval |
+| **Morphis** | Form Adaptation | Context-task switching | Adaptive process mode | Shape Shifting | Dynamically changing process states |
+| **Overdrivea** | Berserk | Damage Amplification | Performance multiplier | Overdrive | Intensive computational bursts |
+| **Magica** | Magical Effects | Predefined triggers | Event-driven automation | Function Trigger | Automated system event handling |
+| **Modula** | Modular Upgrade | Modular Scaling | Hot-swap AI modules | Modular Scaling | Rapid integration of new AI behaviors |
+| **Furiosa** | Rage Mode | Temporary Power Boost | CPU/GPU burst mode | Performance Boost | Rendering or simulation intensive mode |
+| **Portalus** | Portal Mechanics | Instant Transition | State mapping / teleportation | State Transfer | Task migration / memory remap |
+| **Echo** | Area Effect | Broadcast commands | System-wide events / alerts | Area Effect | Mass system notifications |
+| **Heartha** | Recovery Hub | Resource restoration | Session persistence and restore | Hub/Recovery | Maintaining user session state |
+| **Ultima** | Special Ability | High-impact activation | Critical system operation trigger | High Impact | Alerting / emergency computation |
+| **Forcea** | Force Push | Remote Influence | Distributed command execution | Remote Control | Orchestration of tasks across servers |
+| **Relata** | Social Link | Relationship Nodes | Dependency / interaction graph | Network Mapping | User behavior and preference modeling |
+| **Fortifera** | Adaptive Defense | Fortification | Auto-hardening security protocols | Adaptive Defense | Strengthening system security on the fly |
+| **Impacta** | Ultimate Strike | Game-Changing Action | Event-triggered priority op | High Priority Action | Critical system pivot points |
+| **Bioflux** | Biotic Power | Energy Manipulation | Dynamic resource allocation | Resource Manipulation | Compute load balancing |
+| **Healix** | Healing Herb | Health Recovery | Automated repair script | Self-Healing | Automatic bug correction or patching |
+| **Dreama** | Dream Layers | Nested Environment | Virtual container hierarchies | Layered Abstraction | Multi-level sandboxing / VM nesting |
+| **Kinetis** | Telekinesis Area | Disruption | System-wide impact event | System Shock | Server failure simulation / stress test |
+| **Summona** | Summon Auxiliary | Support | Spawn helper modules / functions | Summoning | Helper AI or microservice deployment |
+| **Keyfina** | Specialized Tool | Adaptive module | Flexible utility functions | Tool Module | All-in-one utility kit |
+| **Aggrega** | Power Aggregation | Combine modules | Unified high-capability node | Aggregated Power | Clustered compute system |
+| **Chronomanta** | Time Manipulation | Event Reordering | Scheduler manipulation | Time Control | Task prioritization / rescheduling |
+| **Confidara** | Confidant Power | Relationship Buffs | Conditional pattern boosts | Conditional Buff | Adaptive feature enhancement |
+| **Insighta** | Shinigami Eyes | Insight/Prediction | Predictive analytics / monitoring | Predictive Insight | Fraud / anomaly detection |
+| **Assistara** | AI Assistant | System monitoring | AI-driven proactive fixes | Assistant AI | Proactive system advisory |
+| **Neurolink** | Neural Interface | Neural-network input | Integration with human input | Neural Interface | AI-human collaboration |
+| **Titanis** | Strength Burst | Performance mode | High-performance under stress | Burst Mode | Handling peak workload |
+| **Solva** | Instant Solve | Instant computation | Critical task resolution | Instant Solve | Solving complex logic bottlenecks |
+| **Redstonea** | Circuit Logic | Modular control | Workflow automation | Logic Module | Creating complex logic gates |
+| **Evolvia** | System Upgrade | Versioned upgrade | Software update deployment | Upgrade System | Managing automated versioning |
+| **Spirala** | Spiral Power | Exponential Growth | Scaling system capabilities | Exponential Scaling | Cloud auto-scaling |
+| **Infusa** | Temp Enhancement | Module injection | Runtime feature toggles | Enhancements | On-the-fly feature injection |
+| **Arcanum** | Archetype Influence | Decision matrix | Adaptive AI behavior modeling | Archetype Mapping | Modeling AI after core behaviors |
+| **Inferna** | Nine Circles | Layered Security | Multi-tier firewall architecture | Layered Defense | Segmented system access control |
+| **Odyssea** | Journey Home | Long-Running Process | Stateful journey tracking | Persistence | Multi-phase process management |
+| **Heroica** | Heroic Conflict | Load Balancing | AI conflict resolution | Dynamic Balance | Conflict simulation and resolution |
+| **Netheris** | Passage of Souls | Transition Pipeline | Data archiving and retrieval | Data Flow | Data migration and archival |
+| **Pyros** | Fire Giver | Knowledge Transfer | Open-source sharing | Enlightenment Node | AI-assisted knowledge distribution |
+| **Pandora** | Unintended Effect | Risk Management | Chaos simulation | Risk Control | Predictive error containment |
+| **Icarion** | Overreach | Safety Limiter | Overload prevention | Threshold Guard | CPU/GPU limit regulation |
+| **Sisyphea** | Eternal Effort | Task Loop | Background maintenance | Persistence Loop | Continuous service monitor |
+| **Labyrintha** | Maze Navigation | Solving Algorithm | Recursive search and resolve | Labyrinth Logic | AI route optimization |
+| **Medusia** | Gaze Freeze | Threat Detection | Intrusion detection alert | Visual Shield | Security camera pattern lock |
+| **Divinus** | Divine Tools | Modular Toolkit | Pluggable tool libraries | Divine Modules | Developer utility suite |
+| **Sonora** | Sound as Power | Sonic Interface | Audio control API | Sonic Input | Voice-based system manipulation |
+| **Vulneris** | Weak Spot | Vulnerability Mapping | System vulnerability scan | Weak Point Analysis | Penetration testing tool |
+| **Herculia** | Twelve Labors | Task Sequencing | Workflow automation system | Task Orchestration | Multi-phase automation |
+| **Argonauta** | Quest Crew | Collaborative Network | Distributed computing | Collective Intelligence | Parallel computation |
+| **Sirenia** | Temptation | Filtering | Attention Management | Focus Filter | Distraction prevention |
+| **Trojanis** | Hidden Payload | Malware Analysis | Security sandbox inspection | Threat Containment | Malware detection systems |
+| **Daedalea** | Ingenious Design | System Architecture | Advanced design frameworks | Innovation Node | Creative architecture builder |
+| **Atlas** | World Bearer | Support | Backend load-bearing services | Infrastructure | Server foundation layer |
+| **Persephona** | Seasonal Cycle | System State Cycle | Scheduled service states | Cyclical State | Resource scheduling/sleep cycles |
+| **Hadeon** | Hidden Realm | Deep Storage | Cold data archive | Hidden Storage | Deep archive server |
+| **Hermesia** | Messenger | Network Relay | API communication layer | Data Transfer | Message routing service |
+| **Apollara** | Sun/Clarity | Diagnostics | System analytics dashboard | Clarity Engine | Monitoring and analysis |
+| **Artemis** | Precision Hunt | Targeted Query | Focused data search | Precision Query | Targeted information retrieval |
+| **Hephaestus** | Forge | System Creation | Build automation | Creation Node | Continuous integration (CI) |
+| **Athena** | Wisdom & Strategy | Decision Engine | AI logic/risk assessment | Strategic Core | Decision-support AI |
+| **Aresia** | Conflict | Chaos Simulation | Stress testing environments | Stress Test | Load & failure simulation |
+| **Poseida** | Sea/Flow | Fluid Dynamics | Data streaming architecture | Flow System | Real-time data transfer |
+| **Hestara** | Hearth/Home | Core Maintenance | System stability daemon | Stability Core | System uptime manager |
+| **Demetra** | Growth/Harvest | Resource Allocation | Auto-scaling services | Resource Growth | Load scaling & optimization |
+| **Zephyrus** | Authority | Command Hierarchy | Root access and control | Root Node | Master system control |
+| **Heraia** | Order/Structure | Governance | Role-based access control | Order Management | Organizational AI |
+| **Dionyssa** | Chaos | Randomization | Procedural generation engine | Chaos Engine | AI-driven creativity |
+| **Pyroxis** | Punishment Cycle | Security Enforcement | Policy automation | Enforcement Cycle | Compliance and audit systems |
+| **Oedipha** | Fate/Prediction | Predictive AI | Causal inference model | Prediction System | Decision path forecasting |
+| **Antigona** | Defiance | Exception Handling | Error override permission | Exception Handler | Controlled override mechanisms |
+| **Oraclia** | Prophecy | Predictive Analytics | AI forecasting model | Prophetic Node | Future trend prediction |
+| **Pandoria** | Residual Value | Fail-Safe Module | Graceful failure recovery | Fail-Safe | Minimal viable continuity |
+| **Ferrana** | Ferryman | Transition Interface | Transfer protocol gateway | Transfer Node | Payment / handoff API |
+| **Moirae** | Life Thread | Lifecycle Manager | Process orchestration | Lifecycle Control | Task scheduling and management |
+| **Hydrina** | Multi-Headed | Regrowth | Redundant Systems | Self-Healing | Auto-spawning services |
+| **Laborina** | Incremental Challenge | Achievement Tracking | Goal-based automation | Progress Engine | Iterative challenge completion |
+| **Musara** | Inspiration | Generative Creativity | Generative AI module | Inspiration Engine | Artistic or textual AI generation |
+| **Sphinxa** | Riddle Logic | Verification | Challenge-response auth | Challenge Logic | Security verification layer |
+| **Bowsera** | Worthiness Test | User Validation | Adaptive user authentication | Access Control | Trust-based identity check |
+| **Circena** | Transformation | Data Conversion | Type casting/transformation | Transformation Node | Data transformation engine |
+| **Arachnia** | Weaver | Network Architect | Web infrastructure builder | Network Fabric | Interconnected data system |
+| **Crona** | Timekeeper | Scheduler | Time-based orchestration | Time Management | Timed automation system |
+| **Nemesia** | Retribution | Fairness Algorithm | Bias correction system | Balance Engine | AI fairness module |
+| **Erosa** | Connection | Relationship Graph | Graph database interactions | Relationship Mapping | Social / connection analytics |
+| **Shieldara** | Reflection | Defense | Mirror Feedback system | Reflection Loop | Anomaly feedback handler |
+| **Hecatia** | Crossroads | Decision Routing | Multimodal decision mapping | Pathfinding Logic | Contextual routing |
+| **Pegasa** | Flight/Freedom | Lightweight Transport | Lightweight data carrier | Mobility Layer | Data delivery optimization |
+| **Chimeris** | Hybrid | Multi-System | Mixed-model framework | Hybrid Engine | Cross-domain integration |
+| **Pandoria Curio** | Exploration | Discovery Algorithm | Autonomous research agent | Curiosity Node | Auto-discovery and mapping |
+| **Wuven** | Wu Wei | Autonomous Optimization | Self-adjusting regulation | Flow Harmony | Adaptive system load balancer |
+| **Equilibria** | The Middle Way | Equilibrium Algorithm | Dynamic system tuning | Balance Engine | AI moderation system |
+| **Karmalis** | Karma | Causal Feedback Loop | Reputation system | Feedback Node | AI ethics tracking |
+| **Atmara** | Atman \= Brahman | Unified Consciousness | Distributed self-awareness | Unity Kernel | Multi-agent self-reflective system |
+| **Dharmara** | Dharma | Purpose Enforcement | Role consistency validator | Purpose Alignment | AI behavior constraint system |
+| **Koantra** | Koan Logic | Nonlinear Reasoning | Paradox-based decision model | Zen Logic | Creative problem-solving AI |
+| **Taora** | The Tao (Flow) | Universal Balance | Total system equilibrium | Universal Flow | Holistic resource management |
+| **Nirvara** | Nirvana | System Finality | State of absolute stability | Final State | Immutable system state |
+| **Samsara** | Rebirth/Cycle | Orchestration | Container restarts (K8s) | Cycle Rebirth | Self-healing microservices |
+| **Byzantium** | Byzantine Trust | Consensus | Blockchain / Paxos | Consensus Protocol | Multi-agent coordination |
+| **Gaiana** | Ecosystem Balance | Resource Cycling | Sustainable computing | Eco-Harmony | Climate modeling / green tech |
+| **Metalearnara** | Meta-Learning | Learning to Learn | MAML (Meta-learning) | Adaptive Learning | AI agents that self-improve |
+| **Fractala** | Fractal Recursion | Self-Similar Scaling | Recursive algorithms | Recursive Depth | Infinite detail in simulations |
+| **Entangla** | Entanglement | Instant Correlation | Correlated state syncing | Entangled Sync | Real-time distributed consistency |
+| **Voidara** | The Void | Minimalist Reduction | Extreme optimization | Void Pruning | Ultra-efficient edge device code |
+| **Eternara** | Eternal Return | Cyclical Optimization | Reinforcement learning loops | Eternal Loop | Long-term AI strategy optimization |
+| **Compassa** | Bodhisattva | Ideal Compassion Algorithm | Aid-priority logic | Compassion Node | Empathetic assistant AI |
+| **Ahimsa** | Ahimsa | Harm Minimization | Ethical decision limiter | Safety Bound | AI safety alignment logic |
+| **Yggdra** | Yggdrasil Network Tree | Central Data Structure | Connection tree and dependency hierarchy | Tree Mapping | Visualise system dependencies and propagation paths |
+| **Sephira** | Tree of Life | Hierarchical Structure | Layered neural architecture | Divine Mapping | Multilayer AI design pattern |
+| **Sephira Net** | Sephiroth | Energy Network | Knowledge distribution grid | Divine Network | Knowledge-sharing framework |
+| **Covenara** | Covenant | Mutual Trust Protocol | Secure handshake / API | Trust Chain | Decentralized identity validation |
+| **Angelica** | Angelic Hierarchies | Multi-Rank Processing | Prioritized task execution | Angelic Order | Priority management system |
+| **Aeona** | Aeons | Layered Emanations | Multi-layer abstractions | Emanation Stack | Multi-agent coordination |
+| **Anunna** | Anunnaki | Hierarchy Command | Layered authority protocol | Hierarchy Node | Organizational AI framework |
+| **Qiflow** | Qi | Life Energy Flow | Resource management | Energy Flow | Distributed power systems |
+| **Qiara** | Qi | Circulation | Energy Routing | Circulation Path | Thermal regulation / AI |
+| **Tonala** | Tonalli | Soul Energy | Energy Management | Energy Core | Dynamic power allocation |
+| **Chakrina** | Chakras | Energy Centers | Modular control interfaces | Energy Layer | Biofeedback integration |
+| **Totema** | Spirit Animal | Modular Personality | Profile-based adaptive models | Totem Module | Personalized AI interaction |
+| **KaBara** | Ka/Ba | Dual Process | Model Physical/virtual pair | Dual Node | Mirror-state redundancy system |
+| **Kamira** | Kami | Ambient Awareness | Localized context sensors | Spirit Node | Context-aware IoT systems |
+| **Resonara** | Principle of Vibration | Resonance Mapping | Frequency-based feedback | Resonance Engine | Adaptive tuning systems |
+| **Dervisha** | Whirling Dervish | Rotational State Reset | Cyclical process synchronization | Spin Reset | Load rebalancing |
+| **Ashara** | Asha | Integrity Protocol | Verification chain | Truth Kernel | Blockchain-based validation |
+| **Revela** | Hidden Knowledge | Encryption/Decryption | Hidden data layer | Revelation Node | Secure data decryption model |
+| **Logora** | Logos | Language as Creation | Natural language core | Word Engine | Language-model foundation |
+| **Mirrora** | Principle of Correspondence | Reflective Mapping | Metadata mirroring | Mirror Logic | State-synchronized architecture |
+| **Secretum** | Secret Flame | Inspiration Cache | Hidden creative archive | Inspiration Core | Deep generative memory |
+| **Dreamara** | Dreamtime | Generative World Model | Virtual world builder | Creation Grid | Procedural environment generation |
+| **Awena** | Awen | Inspiration Flow | Creative pattern generator | Inspiration Engine | Artistic AI synthesis |
+| **Alchemara** | Alchemy | Alchemy Transmutation | Data Conversion | Alchemy Node | Dataset morphing AI |
+| **Immortalis** | Immortality | Eternal Flow | Continuity Preservation | Continuity Node | Fault-tolerant system design |
+| **Biofluxa** | Biotic Power | Energy Manipulation | Dynamic allocation of resource pools | Resource Manipulation | Compute load balancing / energy management |
+| **Ma'atara** | Ma'at | Order and Justice | Compliance validator | Balance Law | AI fairness audit system |
+| **Tzolkara** | Tzolkin Calendar | Temporal Logic | Time-based task scheduling | Temporal Node | Time-referenced AI events |
+| **Yinyara** | Yin-Yang | Dual Polarity | Binary state balance | Dual Flow | Positive/negative charge balancer |
+| **Asabove** | As Above, So Below | Fractal Symmetry | Recursive system design | Fractal Mirror | Self-similar AI structures |
+| **Shamanis** | Journey Between Worlds | System Traversal | Cross-network transfer | Bridge Node | Cross-domain data transfer |
+| **Einfosa** | Ein Sof | Infinite Expansion | Infinite scalability engine | Infinity Kernel | Scalable distributed AI |
+| **Triada** | Trinity | Triadic Model | Multi-core orchestration | Triad Logic | Mind-heart-body AI synergy |
+| **Toriana** | Torii Gate | Access Portal | Entry-point filter | Gateway Node | Permission boundary logic |
+| **Mathara** | Safe Mathematics | Error-Proof Computation | Division guards, null checks, range clamping | Numerical Safety | Any system requiring arithmetic operations without runtime errors |
+
+## Algorithms & Data Structures
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Recursara** | Recursion / Descent | Recursive Call Stack | Stack frame management | Recursive Engine | Deep tree traversal / DFS |
+| **Sortalis** | Ordering Force | Sorting Engine | Comparison / merge sort algorithms | Sort Node | Data ordering pipelines |
+| **Hashmira** | Hash / Mapping | Hash Table | O(1) key-value lookup | Hash Engine | In-memory caching and lookup |
+| **Grapheus** | Graph God | Graph Traversal | BFS/DFS/Dijkstra engine | Graph Engine | Shortest path, social graphs |
+| **Dynama** | Dynamic Power | Dynamic Programming | Memoized subproblem solver | DP Engine | Optimal path / sequence problems |
+| **Greedis** | Hungry Force | Greedy Selection | Locally optimal choice engine | Greedy Node | Scheduling, compression |
+| **Binarion** | Binary Split | Binary Search | Halving search space | Binary Engine | Fast sorted lookup |
+| **Treanta** | Tree Spirit | Tree Structures | BST / AVL / Red-Black tree | Tree Node | Index structures / file systems |
+| **Heapara** | Heap Guardian | Priority Queue | Min/max heap operations | Heap Engine | Task scheduling by priority |
+| **Triera** | Trie Weaver | Prefix Tree | Character-by-character search | Trie Node | Autocomplete / DNS lookup |
+| **Slidara** | Sliding Window | Stream Analysis | Windowed computation over data | Window Engine | Real-time metrics, substring search |
+| **Bitweava** | Bit Weaver | Bitwise Operations | XOR / AND / shift operations | Bit Engine | Flags, masks, low-level control |
+| **Complexa** | Complexity God | Big-O Analysis | Algorithmic complexity tracking | Complexity Node | Performance profiling |
+| **Backtraka** | Backtrack | Constraint Search | Exhaustive pruned search | Backtrack Engine | Sudoku solvers, N-queens |
+| **Kruskalra** | Spanning Force | Minimum Spanning Tree | Kruskal/Prim algorithm | MST Engine | Network topology optimization |
+| **Flowa** | Max Flow | Flow Networks | Ford-Fulkerson / Edmonds-Karp | Flow Engine | Network bandwidth optimization |
+| **Suffixara** | Suffix Array | String Indexing | Suffix array construction | String Engine | Full-text search engines |
+| **Bloomara** | Bloom Filter | Probabilistic Set | Space-efficient membership test | Bloom Node | Cache pre-check / deduplication |
+| **Topara** | Topological Order | Dependency Sort | DAG topological sort | Order Engine | Build systems, task ordering |
+| **Fibonara** | Golden Spiral | Fibonacci Heap | Amortized priority operations | Fib Engine | Advanced graph algorithms |
+| **Segmenta** | Segment Tree | Range Query | Interval update and query | Range Engine | Database range operations |
+| **Fenwicka** | Fenwick Tree | Binary Indexed Tree | Prefix sum queries | BIT Engine | Leaderboards, cumulative stats |
+| **Strandara** | Strand / Knuth-Morris-Pratt | Pattern Matching | KMP / Rabin-Karp string search | Match Engine | Log parsing, virus signatures |
+| **Convexara** | Convex Hull | Geometric Boundary | Graham scan / Jarvis march | Geo Engine | Spatial computing / mapping |
+| **Kahna** | Topological Kahne | BFS-based ordering | Kahn's algorithm for DAGs | DAG Engine | Dependency resolution |
+
+## Networking & Internet Systems
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Tcpira** | TCP / Handshake | Reliable Transport | 3-way handshake, ACK/NACK | Transport Node | Guaranteed data delivery |
+| **Udpara** | UDP / Datagram | Fast Unreliable Transport | Connectionless packet sending | Datagram Node | Live video, gaming |
+| **Dnsara** | Name Resolver | DNS Resolution | Domain-to-IP lookup chain | DNS Node | Service discovery |
+| **Routara** | Route Finder | IP Routing | BGP/OSPF path selection | Routing Engine | Inter-AS packet forwarding |
+| **Vlana** | Virtual LAN | Network Segmentation | VLAN tagging and isolation | Segment Node | Tenant network isolation |
+| **Sdnara** | Software-Defined Net | Programmable Routing | Control/data plane separation | SDN Engine | Dynamic network policy |
+| **Cdnara** | Content Delivery | Edge Caching | Distributed content replication | CDN Node | Static asset delivery |
+| **Websoketara** | Persistent Socket | Full-Duplex Channel | WebSocket upgrade / keep-alive | Socket Node | Real-time chat, live feeds |
+| **Grpcara** | RPC Bridge | Remote Procedure Call | Protocol buffer serialization | RPC Node | Microservice communication |
+| **Mqttara** | IoT Messenger | Pub/Sub Protocol | Lightweight broker messaging | MQTT Node | IoT sensor networks |
+| **Loadara** | Load Distributor | Traffic Balancing | Round-robin / least-conn LB | Load Node | API gateway balancing |
+| **Proxyara** | Proxy Shield | Reverse Proxy | Request forwarding / TLS termination | Proxy Node | Nginx / Envoy layer |
+| **Natara** | Address Translator | NAT Gateway | Private-to-public IP mapping | NAT Node | Cloud VPC egress |
+| **Firewalla** | Firewall Guardian | Packet Filtering | Stateful rule enforcement | Filter Node | Perimeter security |
+| **Ipv6ara** | New Address Space | IPv6 Transition | 128-bit address routing | Address Engine | Modern internet infrastructure |
+| **Quicara** | QUIC Protocol | Low-Latency Transport | UDP-based multiplexed streams | QUIC Node | HTTP/3 performance |
+| **Spannara** | Network Spanning | Spanning Tree | STP loop prevention | Bridge Node | Ethernet topology management |
+| **Anycastara** | Anycast Routing | Nearest-Node Delivery | Anycast address resolution | Anycast Node | DDoS mitigation / CDN |
+| **Multicastara** | Multicast Wave | Group Messaging | IGMP / multicast group mgmt | Multicast Node | Video streaming, market data |
+| **Tunnelara** | Tunnel Digger | Network Tunneling | GRE / IPSec / WireGuard tunnels | Tunnel Node | VPN infrastructure |
+
+## Artificial Intelligence & Machine Learning
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Transformara** | Transformer | Attention Mechanism | Multi-head self-attention layer | Attention Engine | LLM inference pipelines |
+| **Gradienta** | Gradient Descent | Optimization Flow | Backpropagation \+ weight update | Gradient Engine | Model training loops |
+| **Dropara** | Dropout | Regularization | Random neuron deactivation | Regularize Node | Overfitting prevention |
+| **Embedara** | Embedding Space | Vector Representation | Token-to-vector mapping | Embed Engine | Semantic search, NLP |
+| **Renfora** | Reinforcement | Reward Learning | Policy gradient / Q-learning | RL Engine | Game AI, robot control |
+| **Gannara** | GAN Duality | Adversarial Generation | Generator vs discriminator | GAN Node | Synthetic data / deepfake detection |
+| **Encodara** | Encoder | Latent Compression | Variational autoencoder bottleneck | Encode Engine | Feature extraction |
+| **Attentara** | Cross-Attention | Context Fusion | Query-key-value attention | Context Engine | Multimodal AI models |
+| **Clustara** | Cluster Spirit | Unsupervised Grouping | K-means / DBSCAN clustering | Cluster Engine | Customer segmentation |
+| **Featurara** | Feature Forge | Feature Engineering | Transform / normalize / select | Feature Engine | ML preprocessing pipelines |
+| **Inferara** | Inference Oracle | Model Serving | Optimized forward pass | Infer Node | Low-latency prediction APIs |
+| **Finetunara** | Fine Tuner | Transfer Learning | Domain-specific weight adjustment | Tune Engine | Specialized LLM adaptation |
+| **Tokeniara** | Tokenizer | Text Segmentation | BPE / WordPiece tokenization | Token Engine | NLP input preparation |
+| **Retrievara** | Retrieval Sage | RAG Pipeline | Vector search \+ context inject | Retrieve Engine | Document QA systems |
+| **Sampara** | Sampler | Stochastic Sampling | Temperature / nucleus sampling | Sample Engine | LLM output diversity |
+| **Quantara** | Quantization | Model Compression | INT8 / FP16 weight reduction | Quant Engine | Edge model deployment |
+| **Prunerara** | Neural Pruner | Weight Pruning | Sparse model compression | Prune Engine | Mobile AI optimization |
+| **Diffusara** | Diffusion | Generative Denoising | Forward/reverse noise process | Diffuse Engine | Image / audio generation |
+| **Vectorara** | Vector Store | Embedding Index | ANN index (FAISS/Pinecone) | Vector Engine | Semantic memory store |
+| **Pipelinara** | ML Pipeline | Workflow Orchestration | DAG-based model pipeline | Pipeline Engine | End-to-end ML workflows |
+| **Ensembara** | Ensemble | Model Aggregation | Bagging / boosting combination | Ensemble Engine | Robust prediction systems |
+| **Calibrara** | Calibration | Confidence Tuning | Platt scaling / isotonic reg | Calibrate Node | Trustworthy probability outputs |
+| **Agentara** | AI Agent | Autonomous Action | Tool-use \+ memory \+ planning | Agent Engine | Autonomous task execution |
+| **Ragara** | RAG Oracle | Retrieval Augmented Gen | Chunking \+ retrieval \+ synthesis | RAG Engine | Enterprise knowledge bases |
+
+## Cybersecurity
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Pentestara** | Penetration | Authorized Attack | Red team exploit simulation | Pentest Engine | Vulnerability discovery |
+| **Zerodara** | Zero Day | Unknown Exploit | Novel vulnerability discovery | Zero Node | Critical patch triggers |
+| **Hashguarda** | Hash Guardian | Integrity Check | SHA-256 / bcrypt hashing | Hash Guard | Password and file integrity |
+| **Encryptara** | Cipher Forge | Encryption Layer | AES-256 / RSA / ECC | Crypto Engine | Data-at-rest / in-transit security |
+| **Pkiara** | PKI Chain | Certificate Trust | X.509 cert chain validation | Trust Engine | TLS handshake infrastructure |
+| **Jwtara** | Token Bearer | Stateless Auth | JWT sign / verify / refresh | Auth Token | API authentication |
+| **Oauth2ara** | Auth Delegator | OAuth Flow | Authorization code / PKCE | OAuth Node | Third-party access delegation |
+| **Sandboxara** | Sand Cage | Isolated Execution | Process-level sandboxing | Sandbox Engine | Malware / untrusted code |
+| **Soarara** | SOAR Orchestrator | Security Automation | Playbook-driven response | SOAR Engine | Incident response automation |
+| **Siemara** | SIEM Watcher | Log Correlation | Event aggregation \+ alerting | SIEM Node | Threat hunting platform |
+| **Honeypara** | Honeypot Lure | Deception Defense | Fake service trap deployment | Decoy Node | Attacker fingerprinting |
+| **Dlpara** | Data Loss Prevent | Exfiltration Block | Content-aware policy engine | DLP Node | Sensitive data protection |
+| **Ztatara** | Zero Trust | Never-Trust Model | Continuous auth \+ micro-seg | ZTA Engine | Modern enterprise security |
+| **Casmara** | CASB Shield | Cloud Access Security | Inline cloud traffic inspection | CASB Node | SaaS security posture |
+| **Devsecara** | DevSecOps | Shift-Left Security | SAST / DAST in CI pipeline | SecDev Engine | Secure software delivery |
+| **Threatara** | Threat Intel | Indicator Sharing | IOC / TTPs / STIX-TAXII | Intel Node | Proactive threat defense |
+| **Mitrara** | MITRE ATT&CK | Adversary Tactics Map | TTP-based detection mapping | Tactic Engine | Red/blue team alignment |
+| **Supplyara** | Supply Chain | Dependency Security | SCA / SBOM generation | Supply Node | Open-source risk management |
+| **Cspmara** | Cloud Posture | Config Compliance | Misconfiguration detection | Posture Engine | Cloud security audit |
+| **Edrara** | Endpoint Detect | Host-level Response | Behavioral process monitoring | EDR Engine | Ransomware containment |
+
+## Compilers, Runtimes & Operating Systems
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Lexara** | Lexer | Tokenization | Regular expression DFA/NFA scan | Lex Engine | Compiler front-end |
+| **Parsara** | Parser | Syntax Analysis | LL/LR/LALR grammar parsing | Parse Engine | AST construction |
+| **Semanta** | Semantic Sage | Semantic Analysis | Type checking / symbol table | Semantic Engine | Compiler middle-end |
+| **Irara** | IR Forge | Intermediate Representation | SSA / three-address code | IR Engine | Cross-platform compilation |
+| **Optima** | Optimizer | Code Optimization | Dead code elim / loop unroll | Opt Engine | Performance compilation |
+| **Codegena** | Code Generator | Machine Code Emit | Instruction selection / regalloc | Codegen Engine | Target assembly generation |
+| **Schedulara** | OS Scheduler | Process Scheduling | CFS / round-robin / RT sched | Sched Engine | CPU time management |
+| **Pagara** | Page Fault | Memory Paging | Virtual memory page table walk | Page Engine | RAM / swap management |
+| **Semaphora** | Semaphore | Synchronization | P/V operations / mutex | Sync Engine | Concurrent resource access |
+| **Deadlockara** | Deadlock Detector | Circular Wait | Banker's algorithm / detection | Lock Engine | Deadlock avoidance |
+| **Kernelara** | Kernel | OS Core | Syscall dispatch / privilege ring | Kernel Node | OS foundation |
+| **Interruptara** | Interrupt Handler | Hardware Signal | IRQ / ISR / APIC routing | IRQ Engine | Device driver coordination |
+| **Syscallara** | System Call | User-Kernel Bridge | Trap gate / privilege switch | Syscall Node | OS API layer |
+| **Inodara** | Inode Spirit | Filesystem Metadata | Inode / dentry / VFS layer | FS Engine | File system operations |
+| **Cachara** | Cache Oracle | Memory Hierarchy | L1/L2/L3 / TLB management | Cache Engine | CPU memory optimization |
+| **Gcara** | Garbage Collector | Memory Reclaim | Mark-sweep / generational GC | GC Engine | Managed runtime memory |
+| **Jitara** | JIT Compiler | Just-In-Time | Bytecode to native hot path | JIT Engine | VM performance boost |
+| **Hypara** | Hypervisor | Virtual Machine | Type-1/2 VMM, ring-0 control | Hyper Engine | Cloud VM infrastructure |
+| **Containerara** | Container Spirit | OS-level Virtualization | cgroups / namespaces / OCI | Container Engine | Docker / Podman runtime |
+| **Ebpfara** | eBPF Probe | Kernel Instrumentation | In-kernel safe program execution | eBPF Engine | Observability / networking |
+| **Linkerara** | Linker | Symbol Resolution | Static / dynamic linking | Link Engine | Executable construction |
+| **Asmara** | Assembly | Raw Instruction | MOV / JMP / CALL emit | ASM Node | Low-level hardware control |
+
+## Quantum Computing
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Qbitara** | Qubit | Quantum State | Superposition / entangled qubit | Qubit Engine | Quantum circuit primitives |
+| **Hadamara** | Hadamard | Superposition Gate | H-gate 50/50 split | Super Gate | Quantum coin flip |
+| **Cnotara** | CNOT | Entanglement Gate | Controlled NOT operation | Entangle Gate | Qubit correlation |
+| **Shorara** | Shor's Cipher | Factorization | Quantum Fourier transform | Factor Engine | RSA-breaking algorithm |
+| **Grovara** | Grover's Search | Quantum Search | Amplitude amplification | Search Engine | Quadratic speedup lookup |
+| **Qasmara** | Quantum ASM | Circuit Description | OpenQASM gate sequence | Circuit Node | Quantum program compilation |
+| **Decoherara** | Decoherence | Noise / Error | Quantum state collapse | Error Node | Quantum error mitigation |
+| **Qerrara** | Quantum Error Correct | Fault Tolerance | Surface code / Steane code | QEC Engine | Logical qubit protection |
+| **Vqeara** | Variational Quantum | Hybrid Optimization | VQE / QAOA ansatz | Variational Engine | Quantum chemistry |
+| **Teleportara** | Quantum Teleport | State Transfer | Bell pair \+ classical bits | Teleport Engine | Quantum communication |
+| **Densara** | Superdense Coding | 2-bit Quantum Channel | 2 classical bits via 1 qubit | Dense Node | Quantum bandwidth doubling |
+| **Qkdara** | QKD Protocol | Quantum Key Dist | BB84 / E91 protocol | QKD Engine | Unbreakable key exchange |
+| **Quantanneal** | Quantum Annealing | Optimization Landscape | Tunneling through energy barriers | Anneal Engine | NP-hard optimization |
+| **Qrngara** | Quantum Randomness | True Random Number | Measurement collapse entropy | QRNG Node | Cryptographic randomness |
+| **Adiabatara** | Adiabatic Computing | Ground State Search | Slow Hamiltonian evolution | Adiabat Engine | Quantum optimization |
+
+## Databases & Data Platforms
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Relara** | Relational | Tabular Data | ACID-compliant SQL engine | SQL Node | Transactional data storage |
+| **Indexara** | Index Spirit | Query Acceleration | B-tree / hash / bitmap index | Index Engine | Fast query execution |
+| **Joinara** | Join Forge | Relation Merge | Hash join / nested loop / merge | Join Engine | Multi-table queries |
+| **Shardara** | Shard Splitter | Horizontal Partition | Key/range/hash sharding | Shard Engine | Distributed DB scaling |
+| **Replicara** | Replication | Data Mirror | Leader-follower log shipping | Replica Node | High availability data |
+| **Mvccara** | MVCC | Concurrent Versions | Snapshot isolation / undo log | MVCC Engine | Non-blocking reads |
+| **Walara** | WAL Guardian | Write-Ahead Log | Log-structured write ordering | WAL Node | Crash recovery |
+| **Columnara** | Columnar Store | Analytics Storage | Column-oriented compression | Column Engine | OLAP workloads |
+| **Docuara** | Document Store | Schema-Free Storage | JSON / BSON document model | Doc Engine | Flexible content storage |
+| **Graphdara** | Graph Database | Relationship Store | Property graph / RDF triples | Graph DB Node | Social networks / knowledge graph |
+| **Timesara** | Time Series | Temporal Data | Append-only timestamped rows | TimeSeries Engine | Metrics / IoT / telemetry |
+| **Vectordara** | Vector DB | Embedding Store | ANN index with metadata filter | VectorDB Engine | AI similarity search |
+| **Cacheara** | Cache Layer | In-Memory Store | LRU eviction / TTL expiry | Cache Node | Redis / Memcached layer |
+| **Eventstara** | Event Store | Immutable Log | Event sourcing append log | EventStore Engine | CQRS / event-driven systems |
+| **Lakeara** | Data Lake | Raw Storage | Parquet / Delta / Iceberg | Lake Engine | Big data analytics |
+| **Warehara** | Data Warehouse | Aggregated Analytics | Star / snowflake schema | Warehouse Engine | BI and reporting |
+| **Queryara** | Query Planner | Execution Plan | Cost-based optimizer | Query Engine | SQL performance tuning |
+| **Acidara** | ACID Forge | Transaction Guard | Atomicity-consistency-isolation | ACID Node | Safe multi-step operations |
+| **Sagara** | Saga Pattern | Distributed Transaction | Compensating transactions | Saga Engine | Microservice consistency |
+| **Newmara** | NewSQL | Distributed SQL | Raft consensus \+ SQL layer | NewSQL Engine | Globally distributed OLTP |
+
+## DevOps, Cloud & Observability
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Cicdara** | CI/CD Pipeline | Automated Delivery | Build-test-deploy chain | Pipeline Engine | Software release automation |
+| **Gitara** | Version Control | Source Truth | Branch / merge / rebase | Git Node | Code collaboration |
+| **Dockerara** | Container Forge | Image Build | Dockerfile layer assembly | Image Engine | Portable app packaging |
+| **K8sara** | Kubernetes | Container Orchestration | Pod / service / ingress mgmt | K8s Engine | Production container ops |
+| **Helmara** | Helm Chart | K8s Packaging | Release / upgrade / rollback | Helm Engine | App deployment templating |
+| **Terraara** | Infrastructure Code | IaC Provisioning | Declarative resource graph | IaC Engine | Cloud infra automation |
+| **Ansibara** | Config Automation | Idempotent Config | Playbook / role execution | Ansible Node | Server configuration |
+| **Prometara** | Metrics Scrape | Time-Series Monitoring | Pull-based metric collection | Metric Engine | Alerting & dashboards |
+| **Grafanara** | Visualization | Dashboard Display | Panel / query / alert rules | Dashboard Node | Ops visibility layer |
+| **Otelara** | OpenTelemetry | Observability Signal | Traces \+ metrics \+ logs | OTel Engine | Distributed system insight |
+| **Jaegara** | Distributed Trace | Span Tracking | Root cause trace analysis | Trace Engine | Latency debugging |
+| **Vaultara** | Secrets Vault | Credential Management | Dynamic secret lease/revoke | Secret Node | Zero-trust credential store |
+| **Argocdara** | GitOps | Declarative Sync | Desired vs actual state diff | GitOps Engine | Kubernetes GitOps delivery |
+| **Spinnara** | Multi-Cloud Deploy | Deployment Strategy | Blue-green / canary release | Deploy Engine | Safe progressive rollout |
+| **Fluxara** | Flux CD | Continuous Reconcile | K8s manifest sync from git | Flux Node | Automated cluster state |
+| **Pagerara** | Incident Alert | On-Call Routing | Escalation policy trigger | Alert Engine | PagerDuty / ops response |
+| **Chaosara** | Chaos Engineer | Failure Injection | Random fault insertion | Chaos Engine | Resilience testing |
+| **Servicemara** | Service Mesh | Sidecar Network | mTLS \+ traffic policy | Mesh Engine | Istio / Linkerd layer |
+| **Registrara** | Container Registry | Image Store | Push / pull / tag mgmt | Registry Node | OCI image distribution |
+| **Featurefara** | Feature Flag | Toggle Control | Runtime flag evaluation | Flag Engine | Safe feature rollout |
+| **Sentinelara** | Sentinel | Policy Guard | OPA / policy-as-code check | Policy Engine | Compliance enforcement |
+| **Ebsara** | Block Storage | Volume Attach | Persistent volume provisioning | Storage Node | Stateful workload storage |
+| **Cloudwatara** | Cloud Watch | Native Monitoring | Cloud provider metric stream | Watch Engine | AWS/Azure/GCP ops |
+| **Gitopsara** | GitOps Cycle | Source of Truth | Repo-driven reconciliation | GitOps Node | Entire infra from git |
+
+## Formal Methods & Theoretical Computing
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Lambdara** | Lambda Calculus | Function Foundation | Pure function reduction engine | Lambda Engine | Functional language core |
+| **Currara** | Currying | Partial Application | Multi-arg to single-arg transform | Curry Node | Functional pipeline composition |
+| **Monadara** | Monad | Effect Container | Bind / return sequencing | Monad Engine | Side-effect management in FP |
+| **Typara** | Type System | Static Verification | Hindley-Milner type inference | Type Engine | Compile-time safety guarantees |
+| **Propara** | Propositions | Proof Types | Curry-Howard correspondence | Proof Node | Dependent type verification |
+| **Predara** | Predicate Logic | First-Order Logic | Quantifier / clause resolution | Logic Engine | Theorem proving systems |
+| **Hoareara** | Hoare Logic | Program Correctness | Pre/post condition triples | Correctness Node | Formal software verification |
+| **Inducara** | Structural Induction | Recursive Proof | Base case \+ inductive step | Induct Engine | Algorithmic correctness proofs |
+| **Fsmara** | Finite State Machine | State Transitions | DFA / NFA state graph | FSM Engine | Protocol / parser design |
+| **Petriara** | Petri Net | Concurrent Model | Token-firing concurrency net | Petri Node | Distributed process modeling |
+| **Temporara** | Temporal Logic | Time-Based Spec | LTL / CTL formula checking | Temporal Logic | Concurrent system verification |
+| **Modelchkara** | Model Checker | Exhaustive Verify | State-space exploration | Check Engine | Safety property verification |
+| **Refinara** | Refinement | Spec-to-Code | Abstract to concrete mapping | Refine Node | Verified software derivation |
+| **Piara** | Pi Calculus | Mobile Processes | Channel-passing concurrency | Pi Engine | Distributed process algebra |
+| **Categoryara** | Category Theory | Abstract Structure | Functor / natural transform | Category Engine | Generic abstraction patterns |
+| **Isomorphara** | Isomorphism | Structure Equivalence | Bijective mapping between systems | Iso Node | Type-safe data transformation |
+| **Axiomara** | Axiom System | Ground Truth | Foundational rule set | Axiom Node | Formal system bootstrap |
+| **Satisfara** | SAT Solver | Boolean Satisfiability | DPLL / CDCL resolution | SAT Engine | Constraint solving, planning |
+| **Smtara** | SMT Solver | Theory-Extended SAT | Z3 / CVC5 theory reasoning | SMT Engine | Program verification / synthesis |
+| **Abstractara** | Abstract Interpretation | Over-Approximation | Sound program analysis | Abstract Engine | Static analysis tools |
+| **Bisimara** | Bisimulation | Process Equivalence | Behavioural equivalence check | Bisim Node | Protocol equivalence proofs |
+| **Coqara** | Proof Assistant | Interactive Proof | Tactic-based theorem proving | Proof Assistant | Certified math proofs |
+| **Depttypara** | Dependent Types | Value-Level Types | Pi / sigma type constructors | DepType Engine | Agda / Idris verification |
+| **Lineartypara** | Linear Types | Resource Types | Use-once type system | Linear Engine | Memory / resource safety |
+| **Gradtypara** | Gradual Typing | Mixed Safety | Dynamic \+ static type blend | Gradual Engine | TypeScript / Python typing |
+| **Dafnyara** | Verified Code | Auto-Verified | Dafny / Frama-C annotation | Verify Engine | Auto-proven correct code |
+| **Rewritara** | Term Rewriting | Equation Solving | Confluence / termination | Rewrite Engine | Algebraic simplification |
+| **Kleeneara** | Kleene Star | Regex Closure | Repetition operator | Kleene Node | Regex / automata theory |
+| **Pumping** | Pumping Lemma | Language Limit | Regularity disproof | Limit Node | Formal language theory |
+| **Riceara** | Rice's Theorem | Undecidability | Non-trivial property halt | Undecide Node | Computability limits |
+
+## Human-Centred Design, Accessibility & Consent
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Accessara** | Open Gate | Accessibility Engine | WCAG evaluation, assistive adaptation | Accessibility | Screen-reader and motor-access support |
+| **Usabilara** | Effortless Path | Usability Evaluation | Task success, error rate, cognitive load | Usability | Interface quality testing |
+| **A11yara** | Many Ways In | Multimodal Access | Keyboard, voice, switch, captions | Inclusive Interaction | Inclusive application controls |
+| **Localara** | Many Tongues | Localisation | Locale, translation, pluralisation | Internationalisation | International products |
+| **Cognitara** | Mental Burden | Cognitive Load Control | Progressive disclosure, complexity reduction | Cognitive Accessibility | Interfaces for overwhelmed users |
+| **Consentara** | Informed Gate | Consent Management | Granular permission and withdrawal | Consent | Health and education data use |
+| **Explainara** | Glass Mechanism | Explainability Interface | Reasons, evidence, uncertainty display | Explainability | Human-readable AI decisions |
+
+## Requirements & Product Discovery
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Intentara** | True Request | Requirements Elicitation | Convert stakeholder needs into testable requirements | Requirements | Turn interviews into verifiable product requirements |
+| **Traceara** | Golden Thread | Requirements Traceability | Requirement → design → code → test linkage | Traceability | Audit a safety-critical feature end to end |
+| **Acceptara** | Trial of Completion | Acceptance Criteria | Executable definitions of done | Acceptance | Validate a story with automated scenarios |
+| **Stakeara** | Council of Voices | Stakeholder Mapping | Resolve competing needs and authority | Stakeholder Analysis | Balance user, regulator and operator priorities |
+| **Scopeara** | Boundary Circle | Scope Control | Prevent uncontrolled requirement expansion | Scope Governance | Protect a release from feature creep |
+| **Assumptara** | Hidden Premise | Assumption Registry | Record and challenge architectural assumptions | Assumption Control | Test beliefs before committing to an architecture |
+| **Contradictara** | Clashing Laws | Requirement Conflict Detection | Find incompatible goals before implementation | Conflict Detection | Expose privacy and analytics conflicts early |
+
+## Advanced Testing & Verification
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Fuzzara** | Chaos Inputs | Fuzz Testing | Generate malformed and adversarial inputs | Fuzzing | Find parser crashes and unsafe edge cases |
+| **Propertara** | Invariant Law | Property-Based Testing | Generate cases from system invariants | Property Testing | Verify round-trip serialisation invariants |
+| **Mutara** | Corrupted Twin | Mutation Testing | Deliberately alter code to assess test quality | Mutation Testing | Reveal weak assertions in a test suite |
+| **Contractara** | Binding Pact | Contract Testing | Verify service interfaces independently | Contract Testing | Prevent incompatible microservice releases |
+| **Regressara** | Returning Wound | Regression Testing | Detect reintroduced failures | Regression | Keep fixed defects from returning |
+| **Differara** | Twin Judgement | Differential Testing | Compare independent implementations | Differential Testing | Cross-check compilers or cryptographic libraries |
+| **Replayara** | Echoed Event | Deterministic Replay | Reproduce production failures | Replay | Recreate a race condition from an event log |
+| **Testdataara** | Synthetic Population | Test-Data Generation | Privacy-safe realistic datasets | Synthetic Data | Exercise analytics without exposing personal data |
+
+## Privacy & Data Rights
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Minimara** | Take Only What Is Needed | Data Minimisation | Field-level collection controls and schema review | Privacy by Design | Collect only data required for account setup |
+| **Purposeara** | Bound Purpose | Purpose-Limitation Enforcement | Policy-bound access and use controls | Purpose Limitation | Prevent marketing reuse of support data |
+| **Retentara** | Fading Record | Retention and Automatic Deletion | TTL rules, lifecycle policies and deletion jobs | Retention | Delete expired customer records automatically |
+| **Provenara** | Data Lineage | Origin, Transformation and Ownership Tracking | Lineage metadata and auditable transformation graph | Lineage | Trace a report value back to its source |
+| **Anonymara** | Nameless Form | Anonymisation and Pseudonymisation | Tokenisation, aggregation and re-identification controls | Anonymisation | Share research data with reduced identity risk |
+| **Privacara** | Hidden Crowd | Differential Privacy | Calibrated noise and privacy-budget accounting | Differential Privacy | Publish aggregate statistics safely |
+| **Residara** | Territorial Boundary | Data Residency and Sovereignty | Region pinning and geofenced storage policies | Data Residency | Keep regulated records inside an approved region |
+| **Rightara** | Subject Authority | Access, Correction, Export and Deletion Rights | Verified data-subject request workflow | Data Rights | Fulfil an access or erasure request |
+
+## Control Systems, Robotics & Physical Safety
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Feedbackara** | Returning Signal | Closed-Loop Control | Sensor → controller → actuator | Feedback Control | Regulate a robot arm from position feedback |
+| **Pidara** | Threefold Correction | PID Controller | Proportional/integral/derivative regulation | PID Control | Stabilise temperature or motor speed |
+| **Kalmanara** | Hidden State Seer | State Estimation | Kalman filtering and sensor fusion | State Estimation | Fuse GPS and inertial measurements |
+| **Slamara** | Map While Walking | SLAM | Robot localisation and mapping | Robotic Mapping | Navigate an unknown indoor space |
+| **Actuara** | Will Into Motion | Actuator Control | Motor, valve and robotic movement | Actuation | Drive a servo or industrial valve |
+| **Trajectoryara** | Chosen Path | Motion Planning | Collision-safe trajectory generation | Motion Planning | Plan a safe warehouse-robot route |
+| **Twinara** | Living Reflection | Digital Twin | Synchronised physical-system simulation | Digital Twin | Predict maintenance needs from live machinery |
+| **Failsafe Physicalis** | Safe Resting State | Physical Fail-Safe | Return machinery to a safe condition | Physical Safety | De-energise equipment after controller failure |
+| **Interlockara** | Forbidden Motion | Safety Interlock | Prevent dangerous action combinations | Safety Interlock | Block a machine cycle while a guard is open |
+
+## Economics, FinOps & Commerce
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Costara** | Attributed Weight | Cost Attribution | Resource tags, allocation rules, showback and chargeback | Cost Governance | Assign shared platform costs to teams and products |
+| **Budgetara** | Bounded Purse | Bounded Resource Spending | Quotas, spending caps, forecasts and threshold alerts | Budget Control | Stop a workload before it exceeds an approved budget |
+| **Finopsara** | Efficient Treasury | Cloud-Cost Optimisation | Rightsizing, commitment planning and idle-resource removal | FinOps | Reduce cloud spend without breaching service objectives |
+| **Meterara** | Measured Current | Usage Metering | Idempotent usage events, aggregation and reconciliation | Usage Accounting | Measure API calls or compute time for billing |
+| **Billara** | Rendered Account | Invoicing and Charging | Invoices, credits, taxes, payments and ledger reconciliation | Billing | Produce an auditable subscription invoice |
+| **Tariffara** | Changing Price | Dynamic Pricing Rules | Versioned rate cards, tiers, discounts and time-based prices | Pricing | Apply regional or peak-period usage rates |
+| **Incentivara** | Guiding Reward | Incentive-Mechanism Design | Rewards, penalties, eligibility rules and outcome measurement | Mechanism Design | Encourage reliable participation in a shared platform |
+| **Marketara** | Balanced Exchange | Supply-and-Demand Matching | Matching, allocation, ranking and market-clearing rules | Marketplace | Pair service requests with suitable providers |
+| **Fraudara** | False Coin | Transaction Abuse Modelling | Risk scoring, velocity rules, graph signals and case review | Fraud Prevention | Detect account takeover or payment abuse |
+| **Sustainara** | Enduring Enterprise | Long-Term Economic Viability | Unit economics, runway scenarios and cost-to-serve analysis | Economic Sustainability | Test whether a digital service can remain viable at scale |
+
+## Production Reliability Foundations
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Ratelimitara** | Measured Gate | Rate Limiting and Quotas | Token bucket, leaky bucket and per-identity limits | Traffic Control | Protect an API from overload and unfair use |
+| **Retryara** | Patient Return | Controlled Retry | Exponential backoff, jitter, attempt limits and retry budgets | Resilience | Recover from a transient dependency failure |
+| **Timeoutara** | Finite Vigil | Deadline Enforcement | Connection, request and end-to-end time budgets | Timeout | Prevent a stalled dependency from exhausting workers |
+| **Circuitara** | Broken Current | Circuit Breaker | Failure thresholds, open/half-open states and recovery probes | Circuit Breaker | Stop cascading calls to an unhealthy service |
+| **Queueara** | Waiting River | Durable Message Queue | Acknowledgement, visibility timeout, ordering and redelivery | Messaging | Decouple producers from asynchronous workers |
+| **Deadletterara** | Last Harbour | Dead-Letter Handling | Poison-message isolation, inspection and controlled replay | Failure Isolation | Quarantine events that repeatedly fail processing |
+| **Healthcheckara** | Living Pulse | Health and Readiness Probes | Liveness, readiness, dependency and startup checks | Service Health | Keep unhealthy instances out of load balancing |
+| **Runbookara** | Book of Response | Operational Runbooks | Versioned diagnosis, mitigation, escalation and verification steps | Operations | Guide responders through a production incident |
+| **Configara** | Declared Setting | Configuration Management | Typed configuration, validation, environment overlays and safe reload | Configuration | Change service behaviour without rebuilding code |
+| **Backupara** | Second Memory | Backup Creation | Encrypted snapshots, retention schedules and integrity verification | Data Protection | Maintain recoverable copies of critical data |
+| **Restoreara** | Proven Return | Restore Verification | Automated restore drills, recovery-point and recovery-time testing | Disaster Recovery | Prove that backups can recover a failed database |
+| **Apigatewayara** | Frontier Portal | API Gateway | Routing, authentication, quotas, transformation and policy enforcement | API Management | Expose multiple services through one governed endpoint |
+| **Authzara** | Permitted Act | Fine-Grained Authorization | RBAC, ABAC, relationship rules and policy decisions | Authorization | Decide whether a user may modify a specific resource |
+| **Keyrotara** | Turning Key | Cryptographic Key Rotation | Versioned keys, staged rollover, revocation and re-encryption | Key Management | Replace credentials without service interruption |
+| **Validara** | Truthful Form | Boundary Validation | Schema, type, range and semantic validation at trust boundaries | Input Validation | Reject malformed requests before business logic runs |
+| **Reproara** | Same Forge | Reproducible Builds | Pinned inputs, hermetic toolchains and artifact verification | Build Integrity | Rebuild an identical, auditable release artifact |
+
+## Additional Implementation-Ready Spells
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Auditara** | Unbroken Ledger | Audit Evidence | Tamper-evident logs, actor attribution and evidence export | Auditability | Reconstruct who changed a regulated record |
+| **Humanara** | Hand on the Helm | Human Oversight | Review queues, escalation and override controls | Human-in-the-Loop | Require expert approval for high-impact AI actions |
+| **Uncertara** | Measured Fog | Uncertainty Communication | Confidence intervals, abstention and calibrated warnings | Uncertainty | Show when a prediction is unsafe to act on |
+| **Evalara** | Measured Trial | Model Evaluation | Versioned datasets, metrics, rubrics and release gates | AI Evaluation | Compare model versions before deployment |
+| **Promptguarda** | Sealed Instruction | Prompt and Tool-Use Defence | Input isolation, policy checks and least-privilege tools | AI Security | Reduce prompt-injection impact in an agent |
+| **Driftara** | Moving Ground | Data and Model Drift Detection | Distribution monitoring and retraining triggers | Model Monitoring | Detect degrading predictions after market change |
+| **Threatmodelara** | Map of Peril | Threat Modelling | Assets, trust boundaries, abuse cases and mitigations | Threat Modelling | Design security controls before implementation |
+| **Sloara** | Service Promise | Service-Level Objectives | SLIs, error budgets and burn-rate alerts | Reliability | Balance release speed against availability |
+| **Idempotara** | One Effect | Idempotent Processing | Deduplication keys and repeat-safe state transitions | Idempotency | Retry a payment request without double charging |
+| **Backpressara** | Resisting Tide | Backpressure Control | Bounded queues, demand signalling and load shedding | Flow Control | Keep a streaming service stable under overload |
+| **Schemaevolara** | Changing Form | Schema Evolution | Versioned contracts and backward-compatible migrations | Compatibility | Upgrade event formats without breaking consumers |
+| **Carbonara** | Lighter Flame | Sustainable Computing | Energy telemetry, carbon-aware scheduling and efficiency budgets | Sustainability | Shift batch work to lower-carbon periods |
+
+## Canonical Completion Spells
+
+These definitions complete capabilities already referenced by the Cloth Registry. They are first-class Spells in the canonical release.
+
+| Spell Name | Core Motif | System Function | Real-World Implementation | Pattern Tag | Example Use Case |
+| --- | --- | --- | --- | --- | --- |
+| **Actorara** | Independent Actor | Actor-Model Concurrency | Isolated state, mailboxes and supervised actors | Actor Engine | Build scalable message-driven services |
+| **Aegis** | Coordinated Shield | Collective Protection | Shared policy, distributed enforcement and coordinated response | Defense Coordination | Protect several services with one defensive policy |
+| **Asyncara** | Non-Blocking Flow | Asynchronous Execution | Futures, promises, event loops and cancellation | Async Engine | Keep an application responsive during slow work |
+| **Bvhara** | Bounding Hierarchy | Spatial Acceleration | Bounding-volume hierarchy construction and traversal | BVH Engine | Accelerate ray and collision queries in a 3D scene |
+| **Choreogara** | Coordinated Dance | Decentralised Service Choreography | Event-led service coordination without a central controller | Choreography Engine | Coordinate a multi-service business process |
+| **Crdtara** | Converging Replicas | Conflict-Free Replicated State | CRDT merge rules for independently updated replicas | CRDT Engine | Synchronise offline edits without data loss |
+| **Denoiseara** | Clearing Noise | Render Denoising | Spatial, temporal or learned reconstruction of noisy images | Denoise Engine | Produce clean output from low-sample path tracing |
+| **Eventpara** | Event Current | Event-Driven Propagation | Typed events, subscriptions, delivery and handler isolation | Event Engine | Decouple producers from reactive consumers |
+| **Eventualara** | Converging Time | Eventual Consistency | Versioning, conflict handling and convergence across replicas | Eventual Engine | Keep geographically separated data replicas convergent |
+| **Fpgaara** | Reconfigurable Fabric | FPGA Computation | Programmable logic blocks, routing and hardware pipelines | FPGA Engine | Create a task-specific hardware accelerator |
+| **Funpara** | Pure Function | Functional Programming | Immutable data, function composition and controlled effects | Functional Engine | Build a predictable transformation pipeline |
+| **Gossipara** | Rumour Network | Gossip Membership and Dissemination | Peer sampling, failure detection and epidemic state spread | Gossip Engine | Maintain cluster membership without one central node |
+| **Gpuarchara** | Parallel Graphics Fabric | GPU Architecture | Thread groups, memory hierarchy and compute scheduling | GPU Architecture | Design or target a highly parallel compute device |
+| **Lazyara** | Deferred Work | Lazy Evaluation | Demand-driven computation, memoisation and stream evaluation | Lazy Engine | Process an unbounded data stream without eager loading |
+| **Orion** | Precision Hunter | Targeted Discovery | Signal correlation, prioritised search and verified targeting | Hunt Engine | Locate the highest-risk fault or threat in a large system |
+| **Outboxara** | Reliable Dispatch Box | Transactional Outbox | Store state changes and outgoing events in one transaction | Outbox Engine | Publish events without losing them after a database commit |
+| **Pbsara** | Physical Light Law | Physically Based Shading | Material, light and energy-conserving reflectance models | PBR Engine | Render realistic materials consistently across lighting |
+| **Pipelinehara** | Instruction Current | Processor Pipelining | Fetch, decode, execute and hazard-control stages | CPU Pipeline | Build a pipelined processor core |
+| **Raftara** | Agreed Log | Raft Consensus | Leader election, replicated logs and majority commit | Consensus Engine | Keep a cluster's ordered state consistent after failures |
+| **Rasterara** | Pixel Forge | Rasterisation | Transform, clip and convert geometry into fragments | Raster Engine | Render real-time 2D or 3D graphics |
+| **Raytrara** | Traced Light | Ray Tracing | Ray generation, intersection, shading and light transport | Ray Engine | Produce reflections, shadows and global illumination |
+| **Riscvara** | Reduced Instruction Core | RISC-V Processing | Open instruction set, privilege modes and extensions | RISC-V Engine | Implement a custom processor or emulator |
+| **Shaderara** | Programmable Surface | Shader Execution | Vertex, fragment and compute shader stages | Shader Engine | Control rendering and GPU computation |
+| **Shadowmapara** | Recorded Occlusion | Shadow Mapping | Light-space depth maps and filtered shadow tests | Shadow Engine | Add real-time shadows to a rendered scene |
+| **Simddara** | One Command, Many Values | SIMD Execution | Vector lanes, packed operations and data-parallel kernels | SIMD Engine | Accelerate image, audio or numerical processing |
+| **Sophira** | Applied Wisdom | Knowledge-Guided Judgement | Evidence synthesis, rule application and uncertainty-aware choice | Wisdom Engine | Turn several signals into an explainable decision |
+| **Thor** | Directed Thunder | High-Energy Burst Execution | Prioritised parallel work and bounded burst resources | Power Surge Engine | Complete urgent compute-heavy work without destabilising the system |
+| **Tpuara** | Tensor Fabric | Tensor Processing Architecture | Systolic arrays and matrix-optimised execution | TPU Engine | Accelerate neural-network training or inference |
+

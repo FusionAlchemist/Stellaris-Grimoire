@@ -1,0 +1,175 @@
+ORIGIN OPERATOR GRAMMAR — CANONICAL RELEASE 2026.1.1
+
+STATUS
+
+This file is the single authoritative definition of the Operator Grammar for this release. It contains 42 Operators in five families. Operator names are private construction language. They must never appear in software source code, filenames, comments, tests, user interfaces, configuration, logs, ordinary project documentation, release material or public metadata.
+
+
+INVOCATION CONTRACT
+
+Every Operator use has five parts, whether recorded privately or held in working context:
+
+1. TARGET — the exact thing being examined or changed.
+2. INPUT — the source facts, artifacts or prior results being used.
+3. ACTION — the defined operation below.
+4. RESULT — a concrete observation, decision, artifact, change or check.
+5. EVIDENCE — the file, command result, screenshot, trace, requirement or other proof supporting the result.
+
+An Operator has not completed merely because its name was mentioned. Its required result must exist.
+
+
+GLOBAL LAWS
+
+1. Begin with ORIGIN: understand the intended result, configure only the required facets, select only capabilities supported by the actual need, and compose only compatible parts.
+2. Operators organise work; they do not supply missing product facts.
+3. No Operator may invent evidence, credentials, external success, requirements or capabilities.
+4. Observation must precede claims about an existing project.
+5. Composition must preserve required behaviour, data rules, security boundaries and failure handling.
+6. A result remains uncertain until evidence supports it.
+7. A failed check must lead to revision, qualification or an explicit blocker—not a false success claim.
+8. Every loop requires a stop condition.
+9. Every fallback must be safe, observable and less preferred than the primary path.
+10. FINALIZE is forbidden until every applicable completion condition has evidence.
+11. Operator, Spell and Cloth names are forbidden in the created product. Only ordinary computer-science and product language may cross the construction boundary.
+
+
+BUILDER OPERATORS
+
+| Operator | Exact use | Required input | Required result | Failure rule |
+| --- | --- | --- | --- | --- |
+| CHAIN | Connect steps where one step's output is the next step's input. | Ordered components and their input/output contracts. | A sequence with compatible handoffs, error propagation and an end condition. | Do not chain components with incompatible data, timing, trust or failure rules. |
+| LAYER | Separate responsibilities into one-directional levels. | Responsibilities, allowed dependencies and boundary rules. | Named layers with permitted dependency direction and no hidden reverse coupling. | Reject circular or boundary-skipping dependencies. |
+| WRAP | Place a cross-cutting control around an existing component without replacing its purpose. | The component, entry/exit points and required control. | A wrapper with preserved behaviour and explicit added handling such as authentication, validation, logging, timeout or retry. | Do not change the wrapped contract silently or hide its errors. |
+| BRIDGE | Connect different interfaces, protocols, data shapes or platforms. | Both contracts and the required direction of exchange. | An adapter with mapping, validation, error translation and compatibility checks. | Stop if required information cannot be mapped without loss or invention. |
+| NEST | Put a component inside an owning component or lifecycle. | Parent boundary, child boundary, ownership and lifetime. | Clear containment, startup, shutdown, resource ownership and failure isolation. | Do not create ambiguous ownership or hidden shared state. |
+| EMERGE | Recognise useful system behaviour produced by a verified combination. | Evidence from the working combined system. | A plain description of the new behaviour, its limits and how it is verified. | Never claim emergent behaviour from names or intention alone. |
+| MANIFEST | Turn a decided structure into a concrete artifact. | Verified decisions and required format. | A real file, schema, plan, configuration, interface or other inspectable artifact. | Do not create an artifact containing unsupported claims or symbolic construction names. |
+| FINALIZE | Close the work after proving the requested result is complete. | Completion conditions and their evidence. | A truthful final state, release summary and exact remaining external boundaries. | Forbidden while a core journey, required check or critical artifact is incomplete. |
+| DEPENDS_ON | Declare a prerequisite that must exist first. | Dependent item, prerequisite and reason. | An explicit ordered dependency with a way to detect readiness or failure. | Do not use vague dependencies such as “everything must be ready.” |
+| SCOPE_ESTIMATE | Classify size, uncertainty, risk and likely work shape. | User intent, existing project facts, constraints and unknowns. | A QUICK, STANDARD, PROGRAM or HIGH-ASSURANCE classification with reasons and planning depth. | Do not present time or cost guesses as guarantees; qualify material uncertainty. |
+
+
+OBSERVER OPERATORS
+
+| Operator | Exact use | Required input | Required result | Failure rule |
+| --- | --- | --- | --- | --- |
+| OBSERVE | Inspect the real current state without changing it. | Files, running behaviour, data, logs, screenshots or tools. | Factual notes tied to their source. | Do not replace observation with memory or assumption when evidence is accessible. |
+| NOTICE | Record a relevant fact, difference, risk or anomaly found during observation. | An observed fact and the active goal. | A concise statement of why the fact matters. | Do not promote irrelevant detail into a requirement. |
+| PROBE | Perform a small targeted inspection or reversible experiment. | One focused uncertainty and a safe method. | Evidence that narrows or resolves the uncertainty. | Stop if the probe could damage data, change a live system or exceed permission. |
+| EXTRACT | Pull an exact requirement, rule, interface, data shape or constraint from a source. | An identified source. | A source-linked item preserving meaning and limits. | Do not add meaning absent from the source. |
+| TRACE | Follow a flow from origin to outcome across components. | A starting event, record, request or user action. | The end-to-end path, state changes, boundaries and failure points. | Do not stop at the first file if the requested behaviour continues elsewhere. |
+| RELATE | Show how two or more facts, components or requirements affect one another. | Identified items and evidence of connection. | A typed relationship such as dependency, ownership, sequence, conflict or equivalence. | Do not treat similar wording as proof of functional equivalence. |
+| COMPARE | Evaluate alternatives or compare implementation with a reference. | Comparable criteria and evidence for each side. | Differences, consequences and the decision supported by the requested goal. | Do not compare using unequal or hidden criteria. |
+| ATTRIBUTE | Assign origin, responsibility, ownership or cause. | Traceable evidence. | A supported attribution with uncertainty stated where necessary. | Do not assign blame or causation from correlation alone. |
+| LOCATE | Find the exact source, file, symbol, screen, service or data owner. | A specific search target and available search surfaces. | Precise location or a documented search showing it is absent. | Try meaningful search variants before declaring absence. |
+| REVEAL | Make hidden runtime state inspectable. | A state that affects correctness but is not visible. | Safe logs, metrics, traces, diagnostics or views that expose the needed state. | Never reveal secrets, private data or security-sensitive internals to unauthorised users. |
+
+
+EPISTEMIC AND EVIDENCE OPERATORS
+
+| Operator | Exact use | Required input | Required result | Failure rule |
+| --- | --- | --- | --- | --- |
+| FRAME | Define the problem, desired result, boundary and decision being made. | User intent and known context. | A clear question or goal with included and excluded scope. | Reframe if the statement cannot be checked or acted upon. |
+| PREDICT | State the observable result expected if a claim or change is correct. | A testable claim and conditions. | A specific expected observation before running the check. | Do not rewrite the prediction after seeing the result. |
+| TEST | Execute a check that can support or challenge a prediction. | Prediction, method, environment and pass/fail rule. | Actual result and retained evidence. | A test that was not run supplies no evidence. |
+| VERIFY | Compare observed evidence with an explicit requirement or invariant. | Requirement, evidence and acceptance rule. | Pass, fail or blocked result with the supporting evidence. | Do not verify by self-assertion or by checking only the happy path when failures matter. |
+| CONFIRM | Mark a claim as supported after verification. | A completed verification result. | A supported claim linked to evidence and scope. | Never confirm an unrun check, inferred external action or partial result as complete. |
+| DOUBT | Mark an important claim as uncertain and identify what would resolve it. | A claim with missing, conflicting or weak evidence. | The uncertainty, impact and smallest useful next check. | Do not use doubt to avoid accessible evidence gathering. |
+| FALSIFY | Deliberately seek a realistic case that would disprove a claim. | A confirmed or proposed claim and likely failure cases. | Counter-evidence or stronger confidence after serious challenge. | Do not use trivial cases that cannot challenge the claim. |
+| REVISE | Change a requirement, design, implementation or claim because of evidence. | Failed check, new fact or resolved conflict. | Updated artifact or software plus a record of what changed and why in ordinary project language. | Do not patch symptoms while preserving the known root cause. |
+| QUALIFY | Add necessary conditions, limits, confidence or exceptions to a statement. | A statement and evidence showing it is not absolute. | Accurate bounded wording and operational consequences. | Do not hide a material failure behind vague language. |
+| PROMOTE | Turn a repeatedly important lesson into durable project knowledge or an automatic check. | A proven recurring rule or failure pattern. | A conventional project instruction, test, linter, schema or documented invariant. | Never promote symbolic construction names into the product. |
+| RETIRE | Remove an obsolete rule, artifact, dependency or path safely. | Evidence of obsolescence, affected references and recovery plan. | Removal with references updated and behaviour rechecked. | Do not retire an item still required by a supported user journey or release. |
+
+
+STABILITY OPERATORS
+
+| Operator | Exact use | Required input | Required result | Failure rule |
+| --- | --- | --- | --- | --- |
+| CHECKPOINT | Preserve a known recoverable work state. | Current state, completed evidence and next step. | A safe commit, snapshot or conventional handoff record that can be resumed. | Do not include secrets or claim unchecked work is known-good. |
+| FALLBACK | Define a safe alternate path when the preferred path is unavailable. | Primary failure condition, alternate path and user impact. | Observable fallback behaviour, limits and recovery to the primary path. | Do not silently reduce security, correctness or data integrity. |
+| RESUME | Continue from a checkpoint after confirming it still matches reality. | Checkpoint and current project state. | Reconciled state and the next unfinished action. | Do not repeat completed work or trust a stale checkpoint without inspection. |
+| REWIND | Return only the affected work to a known-good state. | Failure point, selected checkpoint and unrelated work boundaries. | Recovered state with unrelated changes preserved. | Never use broad destructive reset when a narrow recovery is possible. |
+| SHIELD | Protect a trust boundary, resource, user, secret or critical invariant. | Threat or failure model and protected target. | Enforced prevention, detection and safe failure behaviour. | A warning alone is not a shield when mechanical enforcement is possible. |
+| BOUND | Set an explicit limit on scope, authority, resources, time, data or retries. | The unbounded activity and the reason for a limit. | A measurable boundary and behaviour when it is reached. | Do not use an arbitrary bound that makes the required result impossible. |
+
+
+EVOLUTION OPERATORS
+
+| Operator | Exact use | Required input | Required result | Failure rule |
+| --- | --- | --- | --- | --- |
+| CYCLE | Repeat a defined build-check-repair loop. | Repeatable action, evidence check and stop condition. | Iterations that stop on success, a stated limit or a genuine blocker. | Never create an endless loop or repeat unchanged failed work. |
+| EVOLVE | Make a deliberate versioned change to behaviour or architecture. | Current contract, desired future contract and migration needs. | Compatible transition, migration path and updated evidence. | Do not silently break supported users or stored data. |
+| ENHANCE | Improve an existing capability without unnecessarily changing its public contract. | Existing behaviour, measured weakness and improvement goal. | Better verified behaviour with compatibility preserved. | Do not disguise a breaking change as an enhancement. |
+| EXTEND | Add a new capability or supported surface. | Existing boundaries, new requirement and integration points. | New complete behaviour with documentation, checks and failure handling. | Do not leave existing journeys broken or the new surface partly fake. |
+| REFINE | Increase clarity, precision, usability, performance or maintainability using feedback. | Working result and concrete evidence or critique. | A measurable improvement with no regression in required behaviour. | Stop refining when the completion bar is met and further work is outside scope. |
+
+
+CANONICAL COMPUTER-SCIENCE BOUNDARY
+
+The Operator Grammar is a private method, not a product vocabulary.
+
+Before any result is written into the created software, translate it into ordinary, recognised computer-science or product language. Examples include “input validation,” “transactional outbox,” “role-based access control,” “responsive layout,” “health check,” “retry with exponential backoff,” or “database migration.”
+
+The created product must not contain:
+
+- Operator names;
+- Spell names;
+- Cloth names;
+- ORIGIN branding;
+- references to a Grimoire, spells, cloths, magical construction or this method; or
+- encoded, abbreviated or lightly disguised versions of those terms.
+
+The final product leak check is part of FINALIZE. A detected term is a failed check and must be removed before completion.
+
+
+---
+
+# RESEARCH OPERATOR EXTENSION — RECOVERED CANON (REVIEW EDITION, 2026-11-19)
+
+STATUS AND PROVENANCE
+
+This appendix preserves additional operator names and recoverable mechanisms from the user's October–November 2026 Erdős–Straus / Egyptian-fractions research (approximately 212 rounds). These operators were proposed or refined during AI-assisted investigation and subsequently adopted by the user into the evolving Grimoire. Their inclusion records that provenance; it does not imply the mathematics is historically novel, universally proved, or independently verified. The original 42-operator grammar above is retained verbatim. The global evidence, security, stopping and construction-boundary laws above also apply to this appendix.
+
+The recovered source material varies in completeness. [EXACT] means a concrete formula/condition was recoverable from saved research notes. [PARTIAL] means the name and general operation were recoverable but the original complete formal contract was not. Partial entries are not silently completed with invented details. Mathematical claims here are historical research records, not newly executed proofs.
+
+## GENERAL CONSTRUCTION AND SEARCH OPERATORS
+
+| Operator | Recovered action / condition | Result and limits | Recovery |
+| --- | --- | --- | --- |
+| SCALE | From a verified Egyptian-fraction identity 4/n = 1/x + 1/y + 1/z, scale by positive integer k: 4/(kn) = 1/(kx) + 1/(ky) + 1/(kz). | A valid scaled identity; positivity and integrality must be retained and checked. This transports an existing certificate, not a proof of all n. | [EXACT] |
+| FACTOR → LOAD → SCALE → VERIFY | Factor a target denominator, load a valid certificate for a factor, scale it to the target, then verify the resulting identity. | A certificate only when a usable factor certificate exists and exact arithmetic passes. | [PARTIAL: sequence recovered; no universal selection rule] |
+| COVER | Track which target denominators, congruence classes or nodes are reached by certified constructions. | Explicit coverage and uncovered cases, never a claim of universal coverage without proof. | [PARTIAL] |
+| FACTOR-WARP | For a/b = 1/y + 1/z, set u = ay − b and v = az − b, so uv = b². Replace (u,v) with (tu,v/t) when the transformed pair yields positive integer y,z. | An alternative two-unit-fraction decomposition under exact divisibility and positivity checks. | [EXACT] |
+| COORDINATE-BRIDGE | Fix selected denominators and vary the remaining denominator and target subject to the identity and divisibility constraints. Historical example: x=5, y=30 gives n=120z/(30+7z). | Valid parameterised candidates only when n,z are positive integers and the exact equality holds. | [EXACT: example; general search policy partial] |
+| EXCEPTION-SIEVE | Separate cases not reached by existing construction doors and classify remaining exceptions. | An explicit residual set; an untested residue is not a counterexample. | [PARTIAL] |
+| OBSTRUCTION-PROFILE | Record the residue, factorisation and divisor constraints obstructing a proposed construction route. | A profile of why that route fails, not proof that the original conjecture fails. | [PARTIAL] |
+| CAUSAL-BACKCHAIN | Work backward from an observed success or failure to necessary intermediate conditions and candidate causes. | A traceable conditional explanation; distinguish necessity from sufficiency. | [PARTIAL] |
+| COUNTERFACTUAL-AUDIT | Change a proposed assumption, residue or construction choice and compare the consequences with the original case. | A documented contrast and its evidence; not a claim of causation without proof. | [PARTIAL] |
+| GLOBAL-RESONANCE | Named in research as a relationship-seeking / cross-case operator. | Original exact input, action and success rule not recovered; preserve name without inventing a formal contract. | [PARTIAL] |
+
+## PRIME, DIVISOR AND MODULAR OPERATORS
+
+Research notation for the entries below: p is a prime (with any specified congruence restrictions), s is an admissible positive shift with p+s divisible by 4, and x=(p+s)/4. A Type I / Type II 'door' is a construction criterion for an Egyptian-fraction decomposition of 4/p; it is not a type of prime.
+
+| Operator | Recovered action / condition | Result and limits | Recovery |
+| --- | --- | --- | --- |
+| TYPE I | Search divisors D of x² such that s divides 4D+1; recover the remaining denominators by the research Type I parametrisation and verify the identity. | A Type I construction only when divisibility and denominator conditions hold. | [PARTIAL: door recovered; full denominator formula not recovered here] |
+| TYPE II | Search divisors D of x² such that s divides p+4D; recover the remaining denominators by the research Type II parametrisation and verify the identity. | A Type II construction only when the exact conditions hold. | [PARTIAL: door recovered; related complete alternative below] |
+| PRIME-GATE | Use prime-factor/congruence constraints to filter candidate construction doors before costly divisor searches. | Rejected or retained candidates with a stated necessary condition; a filter is not a proof of impossibility outside its scope. | [PARTIAL] |
+| PRIME-QUOTIENT-BIND | Named during the prime-quotient investigation; connect a quotient or prime-divisibility condition to a constrained construction candidate. | Exact original algebraic contract not fully recovered; do not infer one from the name. | [PARTIAL] |
+| MINPLUS-LADDER / SUPPORT-DP | Compute minimum prime-factor support needed to reach designated divisor residues using a dynamic-programming / min-plus construction. The divisor-support test uses m(D)=∏q^{ceil(v_q(D)/2)} and D|x² iff m(D)|x. | A minimum-support bound for the modelled residue states, not an unconditional existence proof. | [EXACT: divisor-support equivalence; DP state transitions partial] |
+| CHARACTER-RANK | Rank prime-factor / residue information using multiplicative-character constraints to identify promising or obstructed modular doors. | A conditional ranking or threshold for the chosen modulus, not a universal conclusion. | [PARTIAL] |
+| CHARACTER-GENOME | Catalogue primes by character and residue signatures across candidate doors to identify recurring hard families. | A reproducible classification only when modulus, sample and selection rules are specified. | [PARTIAL] |
+| MODULAR-SUM-EXIT | For Type II with x=(p+s)/4, a solution at x exists iff there are coprime positive divisors a,b of x with s|(a+b). Let k=(a+b)/s. Then 4/p = 1/x + 1/(kpx/a) + 1/(kpx/b). | Exact Type II equivalence under the research hypotheses and positive-integral denominators. The characterisation was related to pre-existing published divisor-sum parametrisations; no historical novelty is claimed. | [EXACT] |
+| COMPLEMENT-MIRROR | In the Type II divisor search, pair D with x²/D. These complementary keys exchange the final two denominators of the same unordered solution. The central key D=x cannot be a Type II success. | Deduplicate mirrored candidates and, where the Type II hypotheses apply, restrict search to one representative (e.g. D<x). | [EXACT] |
+| AUTO-EXIT | Under the research Type I conditions, s|(p+1) gives a direct Type I exit at D=x. | A conditional shortcut only, not a general solution. | [EXACT: recorded condition] |
+| ADDEND-EXIT | Earlier, stronger sufficient Type II condition requiring coprime divisors a,b of x with a+b=s. | A special case of MODULAR-SUM-EXIT (which only needs s|(a+b)); do not treat as an independent general equivalence. | [EXACT: condition] |
+
+## RESEARCH GOVERNANCE NOTES
+
+1. These entries are preserved as user-adopted research vocabulary; original invention, human curation, and mathematical verification remain distinct claims.
+2. Do not silently equate an operator name with a complete formal method when its recovery is marked [PARTIAL]. Consult the original research rounds before relying on a missing definition.
+3. All mathematical outputs require exact arithmetic and stated hypotheses. Failed construction doors do not disprove the Erdős–Straus conjecture.
+4. Preserve the original 42 entries unchanged. This is an additive research appendix, not a replacement for the five-family baseline.
+5. The original construction-boundary rule continues to govern software produced with this method. This public Grimoire reference itself is documentation of the method, not a software product generated by it.
